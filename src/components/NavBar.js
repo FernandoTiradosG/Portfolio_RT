@@ -11,7 +11,8 @@ const NavBar = () => {
     { id: 2, link: "Sobre Mi",},
     { id: 3, link: "Portfolio",},
     { id: 4, link: "Habilidades",},
-    { id: 5, link: "Contacto",},
+    { id: 5, link: "Experiencia",},
+    { id: 6, link: "Contacto",},
   ];
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-gradient-to-b from-black fixed">
