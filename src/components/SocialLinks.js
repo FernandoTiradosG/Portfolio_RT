@@ -9,7 +9,7 @@ const SocialLinks = () => {
     { id: 1, child: (<>Linkedin <FaLinkedin size={30}/> </>), href: 'https://www.linkedin.com/in/fernando-tirados/', style: 'rounded-tr-md'},
     { id: 2, child: (<>Github <FaGithub size={30}/> </>), href: 'https://github.com/FernandoTiradosG'},
     { id: 3, child: (<>Mail <HiOutlineMail size={30}/> </>), href: 'mailto:fernandotg1988@gmail.com'},
-    { id: 4, child: (<>About <BsFillPersonLinesFill size={30}/> </>), href: './assests/CV_Fernando_Tirados_Gonzalez.pdf', style: 'rounded-br-md', download: true},
+    { id: 4, child: (<>About <BsFillPersonLinesFill size={30}/> </>), href: './CV_Fernando_Tirados_Gonzalez.pdf', style: 'rounded-br-md', download: true},
   ];
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
